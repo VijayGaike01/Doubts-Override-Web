@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="auth-card login">
+            <div class="container">
+                <div class="col-left">
+                    <div class="message-text">
+                        <h2>Welcome!</h2>
+                        <p>Create your account.<br>For Free!</p> <a href="" class="btn" id="goToSignUp">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="form login-form">
+                        <h2>Login</h2>
+                        <form id="loginForm" action="">
+                            <p> <input id="loginMail" type="text" placeholder="Email" required name="email"> </p>
+                            <p> <input id="loginPass" type="password" placeholder="Password" required name="password"> </p>
+                            <p> <input id="loginBtn" type="submit" value="Sign In"> </p>
+                            <p> <a href="">Forgot password?</a> </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="auth-card signup">
+            <div class="container">
+                <div class="col-left">
+                    <div class="message-text">
+                        <h2>Welcome !</h2>
+                        <p>Already a member?</p><a href="#" class="btn" id="goToLogin">Login</a>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="form signup-form">
+                        <h2>Sign Up</h2>
+                        <form id="signupForm" action="">
+                            <p> <input type="text" placeholder="Name" required id="signUpName" name="name"> </p>
+                            <p> <input type="text" placeholder="Email" required id="signUpMail" name="email"> </p>
+                            <p> <input type="password" placeholder="Password" required id="signUpPass" name="password"> </p>
+                            <p> <input type="submit" value="Sign Up" id="createUser"> </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script type="module" src="./scripts/main.js"></script>
+</html>
